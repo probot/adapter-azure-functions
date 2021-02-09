@@ -1,5 +1,3 @@
-# 🚧 WORK IN PROGRESS [#1](https://github.com/probot/adapter-azure-functions/pull/1)
-
 # `@probot/adapter-azure-functions`
 
 > Adapter to run a [Probot](https://probot.github.io/) application function in [Azure Functions](https://azure.microsoft.com/services/functions/)
