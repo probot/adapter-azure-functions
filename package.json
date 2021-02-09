@@ -1,5 +1,8 @@
 {
   "name": "@probot/adapter-azure-functions",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0-development",
   "description": "Adapter to run a Probot application function in Azure Functions",
   "main": "index.js",
