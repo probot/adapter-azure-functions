@@ -60,7 +60,7 @@ For an example Probot App continuously deployed to Azure Functions, see https://
 
 `@probot/adapter-azure-functions` exports everything that [`probot`](https://github.com/probot/probot/#readme) does plus `createAzureFunction`.
 
-`createAzureFunction` slightly differs from Probot's built-in `createNodeModdleware`, as an Azure function does receives slightly different parameters.
+`createAzureFunction` slightly differs from Probot's built-in `createNodeMiddleware`, as an Azure function does receives slightly different parameters.
 
 ## License
 
