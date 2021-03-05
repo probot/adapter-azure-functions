@@ -18,7 +18,7 @@
   ],
   "author": "Gregor Martynus (https://github.com/gr2m)",
   "license": "ISC",
-  "repository": "https://github.com/probot/adapter-azure-functions",
+  "repository": "github:probot/adapter-azure-functions",
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "jest": "^26.6.3",
