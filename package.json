@@ -21,7 +21,7 @@
   "repository": "github:probot/adapter-azure-functions",
   "devDependencies": {
     "@types/jest": "^26.0.23",
-    "jest": "^27.0.4",
+    "jest": "^27.0.5",
     "nock": "^13.1.0",
     "prettier": "^2.3.1"
   },
