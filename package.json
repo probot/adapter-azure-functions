@@ -8,8 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "lint": "prettier --check '*.{js,md,json}' '.github/**/*.yml'",
-    "lint:fix": "prettier --write '*.{js,md,json}' '.github/**/*.yml'"
+    "lint": "prettier --check '*.{js,md,json}' 'test/**/*.{js,json}' '.github/**/*.yml'",
+    "lint:fix": "prettier --write '*.{js,md,json}' 'test/**/*.{js,json}' '.github/**/*.yml'"
   },
   "keywords": [
     "probot",
