@@ -20,6 +20,7 @@
   "license": "ISC",
   "repository": "github:probot/adapter-azure-functions",
   "devDependencies": {
+    "@azure/functions": "^1.2.3",
     "@types/jest": "^26.0.23",
     "jest": "^27.0.5",
     "nock": "^13.1.0",
