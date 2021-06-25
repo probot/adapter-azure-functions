@@ -37,15 +37,15 @@ describe("@probot/adapter-azure-actions", () => {
       .reply(201, {});
 
     const context = {};
-    const payload = require("./fixtures/push.json");
-    const signature = probot.webhooks.sign(payload);
+    const payload = JSON.stringify(require("./fixtures/push.json"));
+    const signature = await probot.webhooks.sign(payload);
     const req = {
       headers: {
         "x-github-delivery": "eventid123",
         "x-github-event": "push",
         "x-hub-signature": signature,
       },
-      body: payload,
+      rawBody: payload,
     };
 
     await fn(context, req);
@@ -77,15 +77,15 @@ describe("@probot/adapter-azure-actions", () => {
       .reply(201, {});
 
     const context = {};
-    const payload = require("./fixtures/push.json");
-    const signature = probot.webhooks.sign(payload);
+    const payload = JSON.stringify(require("./fixtures/push.json"));
+    const signature = await probot.webhooks.sign(payload);
     const req = {
       headers: {
         "x-github-delivery": "eventid123",
         "x-github-event": "push",
         "x-hub-signature": signature,
       },
-      body: payload,
+      rawBody: payload,
     };
 
     await fn(context, req);

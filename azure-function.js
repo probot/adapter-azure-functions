@@ -16,7 +16,7 @@ async function azureFunction(probot, context, req) {
       req.headers["x-hub-signature-256"] ||
       req.headers["X-Hub-Signature"] ||
       req.headers["x-hub-signature"],
-    payload: req.body,
+    payload: req.rawBody,
   });
 
   context.res = {
