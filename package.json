@@ -27,7 +27,7 @@
     "prettier": "^2.3.2"
   },
   "dependencies": {
-    "probot": "^12.1.0"
+    "probot": "^12.1.1"
   },
   "release": {
     "branches": [
