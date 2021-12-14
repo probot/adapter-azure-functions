@@ -22,7 +22,7 @@
   "devDependencies": {
     "@azure/functions": "^3.0.0",
     "@types/jest": "^27.0.3",
-    "jest": "^27.4.4",
+    "jest": "^27.4.5",
     "nock": "^13.2.1",
     "prettier": "^2.5.1"
   },
