@@ -23,7 +23,7 @@
     "@azure/functions": "^3.2.0",
     "@types/jest": "^28.1.1",
     "jest": "^28.1.1",
-    "nock": "^13.2.6",
+    "nock": "^13.2.7",
     "prettier": "^2.7.0"
   },
   "dependencies": {
