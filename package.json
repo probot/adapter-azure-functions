@@ -24,7 +24,7 @@
     "@types/jest": "^28.1.1",
     "jest": "^28.1.1",
     "nock": "^13.2.7",
-    "prettier": "^2.7.0"
+    "prettier": "^2.7.1"
   },
   "dependencies": {
     "probot": "^12.2.4"
