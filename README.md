@@ -18,7 +18,31 @@ module.exports = (app) => {
 };
 ```
 
-Then create a folder with `function.json` and `index.js`, e.g.
+### Azure Functions v4
+
+In your Azure function file:
+
+```js
+// src/functions/probot.js
+const { app } = require("@azure/functions");
+const {
+  createAzureFunctionV4,
+  createProbot,
+} = require("@probot/adapter-azure-functions");
+const probotapp = require("../app");
+
+app.http('probot', {
+  methods: ['POST'],
+  authLevel: 'anonymous',
+  handler: createAzureFunctionV4(probotapp, {
+    probot: createProbot(),
+  })
+});
+```
+
+### Azure Functions v3
+
+Create a folder with `function.json` and `index.js`, e.g.
 
 ```js
 // ProbotFunction/function.json
