@@ -1,0 +1,1 @@
+declare module "@probot/adapter-azure-functions" { }
