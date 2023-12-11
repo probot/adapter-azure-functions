@@ -10,7 +10,7 @@ async function azureFunctionV4(probot, request, context) {
   await probot.webhooks.verifyAndReceive({
     id: request.headers.get("X-GitHub-Delivery"),
     name: request.headers.get("X-GitHub-Event"),
-    signature: request.headers.get("X-Hub-Signature-256") || request.headers.get("X-Hub-Signature"),
+    signature: request.headers.get("X-Hub-Signature-256"),
     payload: await request.text(),
   });
 
