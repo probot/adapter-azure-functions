@@ -2,7 +2,11 @@ const ProbotExports = require("probot");
 const azureFunction = require("./azure-function");
 const azureFunctionV4 = require("./azure-function-v4");
 
-module.exports = { ...ProbotExports, createAzureFunction, createAzureFunctionV4 };
+module.exports = {
+  ...ProbotExports,
+  createAzureFunction,
+  createAzureFunctionV4,
+};
 
 /**
  *

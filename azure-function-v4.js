@@ -16,6 +16,6 @@ async function azureFunctionV4(probot, request, context) {
 
   return {
     status: 200,
-    body: "ok"
-  }
-};
+    body: "ok",
+  };
+}
