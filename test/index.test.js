@@ -32,7 +32,7 @@ describe("@probot/adapter-azure-actions", () => {
           });
 
           return true;
-        }
+        },
       )
       .reply(201, {});
 
@@ -72,7 +72,7 @@ describe("@probot/adapter-azure-actions", () => {
           });
 
           return true;
-        }
+        },
       )
       .reply(201, {});
 
